@@ -1,14 +1,8 @@
 // main file for autoclicker program
 
 #include "main.h"
-#include "includes/autoclicker.h"
-#include <ApplicationServices/ApplicationServices.h>
-#include <Carbon/Carbon.h>
-#include <iostream>
-#include <thread>
-#include <chrono>
 
-AutoClicker autoClicker(1); // 2 ms interval
+AutoClicker autoClicker(1); // 1 ms interval
 
 void keybindListener() {
     while (true) {
